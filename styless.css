@@ -1,0 +1,87 @@
+body{
+  background-color: #f2f4f7;
+}
+.title{
+  margin-top: 50px;
+  font-size: 3.4em;
+  color: rgb(56, 56, 231);
+  text-align: center;
+  margin-bottom: 18px;
+
+}
+
+input{
+  padding: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+.div2{
+  background-color: #fff;
+  width: 370px;
+  height: 300px;
+  border:6px solid rgb(255, 255, 255);
+  /* border-style; */
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-evenly;
+  /* justify content center the div horizontaly */
+  /* align items centers the div vertically */
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(0, 0,0,0.6);
+  outline: 4px solid rgb(255, 255, 255);
+}
+.div1{
+  display: flex;
+  justify-content: center;
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:5px;
+}
+li{
+  list-style-type: none;
+}
+li:first-child{
+  padding-left: 15px;
+}
+li:last-child{
+  padding-right: 15px;
+}
+a{
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  color: blue;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+button{
+  background-color: #1877f2;
+  border:none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: #317cdd;
+}
+input::placeholder{
+  padding: 5px;
+  font-size: 18px;
+}
+input{
+  font-size: 15px;
+}
+label{
+  color: black;
+  font-size: 20px;
+  font-family:serif;
+  font-style: normal;
+  
+}
